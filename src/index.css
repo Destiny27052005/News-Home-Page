@@ -27,10 +27,12 @@ nav {
   height: 40px;
 }
 
+.navList {
+  display: block;
+}
 ul {
   display: flex;
   column-gap: 48px;
-
 }
 
 li {
@@ -230,6 +232,10 @@ button:hover {
   #close {
     display: flex;
     justify-self: flex-end;
+  }
+
+  .show {
+    display: block;
   }
 
   ul {

@@ -7,12 +7,13 @@ function Navbar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const openNav = () => {
         setIsNavOpen(!isNavOpen);
-         document.querySelector('.nav-list').style.display = 'block';
+        document.querySelector('.nav-list').classList.add('show');
     };
 
     const closeNav = () => {
         setIsNavOpen(!isNavOpen);
-        document.querySelector('.nav-list').style.display = 'none';
+        document.querySelector('.nav-list').classList.remove('show');
+
     };
 
     return (
@@ -22,7 +23,7 @@ function Navbar() {
 
                 {!isNavOpen && <img id='open' src={Open} alt="Open" onClick={openNav} />}
 
-                <div className='nav-list'>
+                <div className='nav-list' id='navList'>
                     {isNavOpen && <img id='close' src={Close} alt="Close" onClick={closeNav} />}
                     <ul>
                         <li><a href="">Home</a></li>
