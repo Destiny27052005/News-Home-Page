@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1275px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 65px;
+  height: 40px;
+}
+
+ul {
+  display: flex;
+  column-gap: 48px;
+
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  font-size: 400;
+}
+
+nav a:hover {
+  color: #f15e50;
+}
+
+.web-3-desktop {
+  width: 833px;
+  height: 377px;
+}
+
+.web-3-mobile {
+  display: none;
+}
+
+.bd-grid {
+  display: grid;
+}
+
+.group {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+}
+
+.bright {
+  display: flex;
+  column-gap: 148px;
+}
+
+.bright h1 {
+  font-size: 48px;
+  color: #00001a;
+  width: 262px;
+  font-weight: 800;
+  padding-top: 12px;
+  margin-top: 0;
+}
+
+.bright p {
+  width: 354px;
+}
+
+.new {
+  width: 407px;
+  height: 551px;
+  background-color: black;
+}
+
+.new .sub {
+  padding: 42px 19px;
+}
+
+.new h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #e9ab53;
+}
+
+.new a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fffdfa;
+}
+
+.new a:hover {
+  color: #e9ab53;
+}
+
+.new p {
+  color: #c5c6ce;
+}
+
+.border {
+  border-bottom: #5D5F79 2px solid;
+}
+
+button {
+  width: 189px;
+  height: 62px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #f15e50;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00001a;
+  color: #fffdfa;
+}
+
+.top-news {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  margin-bottom: 32px;
+}
+
+
+.news {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.news p {
+  width: 238px;
+  color: #5D5F79;
+}
+
+.num {
+  font-size: 32px;
+  color: #f15e50;
+  margin-bottom: 16px;
+}
+
+.news .title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #00001a;
+  margin: 0 0 16px 0;
+}
+
+.news .title:hover {
+  color: #f15e50;
+}
+
+.news img {
+  width: 153px;
+  height: 194px;
+}
