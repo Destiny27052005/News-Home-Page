@@ -133,6 +133,7 @@ nav a:hover {
 .border {
   border-bottom: #5D5F79 2px solid;
   margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 button {
